@@ -1,39 +1,149 @@
-<p><!DOCTYPE html> <html lang=&quot;en&quot;> <head>  <meta charset=&quot;UTF-8&quot;>  <meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;>  <title>BC King's Commissions and Services</title>  <style>  body {  font-family: Arial, sans-serif;  background-color: #f4f4f4;  margin: 0;  padding: 0;  color: #333333;  }</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BC King's Commissions and Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333333;
+        }
 
-<p> .container {  width: 100%;  max-width: 1200px;  margin: 0 auto;  padding: 20px;  }</p>
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-<p> .header {  text-align: center;  background-color: #444444;  color: #ffffff;  padding: 20px 0;  }</p>
+        .header {
+            text-align: center;
+            background-color: #444444;
+            color: #ffffff;
+            padding: 20px 0;
+        }
 
-<p> .header h1 {  margin: 0;  font-size: 36px;  color: #f4f4f4;  }</p>
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #f4f4f4;
+        }
 
-<p> .services {  display: flex;  flex-wrap: wrap;  justify-content: space-around;  margin-top: 20px;  }</p>
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
 
-<p> .service-item {  background-color: #ffffff;  border: 2px solid #cccccc;  width: 30%;  margin-bottom: 20px;  text-align: center;  padding: 10px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);  }</p>
+        .service-item {
+            background-color: #ffffff;
+            border: 2px solid #cccccc;
+            width: 30%;
+            margin-bottom: 20px;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+        }
 
-<p> .service-item img {  width: 100%;  height: auto;  margin-bottom: 10px;  }</p>
+        .service-item img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
 
-<p> .service-item h2 {  font-size: 24px;  margin: 10px 0;  color: #222222;  }</p>
+        .service-item h2 {
+            font-size: 24px;
+            margin: 10px 0;
+            color: #222222;
+        }
 
-<p> .service-item p {  font-size: 18px;  color: #555555;  }</p>
+        .service-item p {
+            font-size: 18px;
+            color: #555555;
+        }
 
-<p> .footer {  text-align: center;  margin-top: 20px;  background-color: #444444;  color: #ffffff;  padding: 20px 0;  }</p>
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            background-color: #444444;
+            color: #ffffff;
+            padding: 20px 0;
+        }
 
-<p> .footer p {  margin: 0;  }</p>
+        .footer p {
+            margin: 0;
+        }
 
-<p> .contact-info {  margin-top: 10px;  }</p>
+        .contact-info {
+            margin-top: 10px;
+        }
 
-<p> .contact-info img {  height: 40px;  margin: 5px;  vertical-align: middle;  }  </style> </head> <body>  <div class=&quot;container&quot;>  <div class=&quot;header&quot;>  <h1>BC King's Commissions and Services</h1>  </div></p>
+        .contact-info img {
+            height: 40px;
+            margin: 5px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>BC King's Commissions and Services</h1>
+        </div>
 
-<p> <div class=&quot;services&quot;>  <div class=&quot;service-item&quot;>  <h2>YouTube Thumbnails</h2>  <img src=&quot;image_placeholder.jpg&quot; alt=&quot;YouTube Thumbnails&quot;>  <p>$5 Each</p>  </div></p>
+        <div class="services">
+            <div class="service-item">
+                <h2>YouTube Thumbnails</h2>
+                <img src="image_placeholder.jpg" alt="YouTube Thumbnails">
+                <p>$5 Each</p>
+            </div>
 
-<p> <div class=&quot;service-item&quot;>  <h2>Stream Layout</h2>  <img src=&quot;image_placeholder.jpg&quot; alt=&quot;Stream Layout&quot;>  <p>$20</p>  </div></p>
+            <div class="service-item">
+                <h2>Stream Layout</h2>
+                <img src="image_placeholder.jpg" alt="Stream Layout">
+                <p>$20</p>
+            </div>
 
-<p> <div class=&quot;service-item&quot;>  <h2>Channel Banner</h2>  <img src=&quot;image_placeholder.jpg&quot; alt=&quot;Channel Banner&quot;>  <p>$10</p>  </div></p>
+            <div class="service-item">
+                <h2>Channel Banner</h2>
+                <img src="image_placeholder.jpg" alt="Channel Banner">
+                <p>$10</p>
+            </div>
 
-<p> <div class=&quot;service-item&quot;>  <h2>Stream Highlight/Compilation Video</h2>  <img src=&quot;image_placeholder.jpg&quot; alt=&quot;Stream Highlight&quot;>  <p>$15</p>  </div></p>
+            <div class="service-item">
+                <h2>Stream Highlight/Compilation Video</h2>
+                <img src="image_placeholder.jpg" alt="Stream Highlight">
+                <p>$15</p>
+            </div>
 
-<p> <div class=&quot;service-item&quot;>  <h2>Wallpaper/Background</h2>  <img src=&quot;image_placeholder.jpg&quot; alt=&quot;Wallpaper&quot;>  <p>$10</p>  </div></p>
+            <div class="service-item">
+                <h2>Wallpaper/Background</h2>
+                <img src="image_placeholder.jpg" alt="Wallpaper">
+                <p>$10</p>
+            </div>
 
-<p> <div class=&quot;service-item&quot;>  <h2>Voiceover/Voice Acting</h2>  <img src=&quot;image_placeholder.jpg&quot; alt=&quot;Voiceover&quot;>  <p>$10-$20</p>  </div>  </div></p>
+            <div class="service-item">
+                <h2>Voiceover/Voice Acting</h2>
+                <img src="image_placeholder.jpg" alt="Voiceover">
+                <p>$10-$20</p>
+            </div>
+        </div>
 
-<p> <div class=&quot;footer&quot;>  <p>Guaranteed 5-Star Service!</p>  <p class=&quot;contact-info&quot;>  <img src=&quot;cashapp_logo.png&quot; alt=&quot;Cash App&quot;>  <img src=&quot;paypal_logo.png&quot; alt=&quot;PayPal&quot;>  <img src=&quot;venmo_logo.png&quot; alt=&quot;Venmo&quot;> </p>  <p>Contact Info: @BCKingGames</p>  <p>Email: bckinggames@gmail.com</p>  </div>  </div> </body> </html></p>
+        <div class="footer">
+            <p>Guaranteed 5-Star Service!</p>
+            <p class="contact-info">
+                <img src="cashapp_logo.png" alt="Cash App">
+                <img src="paypal_logo.png" alt="PayPal">
+                <img src="venmo_logo.png" alt="Venmo">
+            </p>
+            <p>Contact Info: @BCKingGames</p>
+            <p>Email: bckinggames@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
